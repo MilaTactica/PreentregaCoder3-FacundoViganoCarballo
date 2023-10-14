@@ -1,0 +1,42 @@
+.botonTarjetas{
+    margin-top: 60px;
+    background-color: #044C7E;
+    color: white;
+    width: 100%;
+    fill: #FFF;
+    box-shadow:  0px 20px 27px rgba(4, 76, 126, 0.35);
+}
+.imagenestarjetas{
+    width: 153px;
+    height: 102px;
+    border-radius: 0px 32px 0px 0px;
+}
+.tarjeta-titulo{
+    margin-top: 10px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+.tarjeta-descripcion{
+    height: 170px;
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.column{
+    fill: #FFF;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    filter: drop-shadow(0px 50px 115px rgba(4, 76, 126, 0.23));
+}
+.bold{
+    font-weight: 700;
+}

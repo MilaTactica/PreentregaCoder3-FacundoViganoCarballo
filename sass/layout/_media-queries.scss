@@ -1,0 +1,55 @@
+@media screen and (max-width: 767px) {
+    .logo{
+        display: none;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .imagenmain{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .contenedor-imagen{
+        img{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 455px) {
+    .texto-descripcion{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    .beneficiosimg{
+        img{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 450px) {
+    .grilla{
+        margin-top: 1rem;
+        margin-left: 0rem;
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+        grid-template-rows: 50vh 50vh;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-template-areas: 
+        "logo texto"
+        "logo2 texto2";
+        .beneficios-icon{
+            grid-area: logo;
+        }
+        .texto{
+            grid-area: texto;
+        }
+        .beneficios-icon-2{
+            grid-area: logo2;
+        }
+        .texto2{
+            grid-area: texto2;
+        }
+    }
+}

@@ -1,0 +1,368 @@
+/*ESTILOS HEADER PARA CENTRARLO*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+.navbar {
+  padding: 2rem;
+  background-color: white;
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  margin-top: -2%;
+}
+
+/*FIN ESTILOS HEADER PARA CENTRARLO*/
+/*INICIOS ESTILOS NAV*/
+.ulNav li a {
+  color: #4F5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ulNav .aBordeBoton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 45px;
+  border: 1px solid #044C7E;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.ulNav .aBordeBoton button {
+  background-color: transparent;
+  border: 0px;
+  color: #044C7E;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.aBordeBoton:hover {
+  background-color: #044C7E;
+  box-shadow: 0px 10px 150px #044C7E;
+}
+
+.aBordeBoton:hover button {
+  color: white;
+}
+
+/*FIN ESTILOS NAV*/
+.texto-descripcion {
+  color: #4F5665;
+  font-family: Rubik;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tituloMain {
+  color: #0B132A;
+  font-family: Rubik;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.boton {
+  width: 250px;
+  height: 60px;
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #044C7E;
+  box-shadow: 0px 20px 27px rgba(4, 76, 126, 0.35);
+}
+
+.boton p {
+  position: relative;
+  top: 20%;
+}
+
+.main-grid {
+  width: 100%;
+  padding: 15px;
+}
+
+.texto-icono-der {
+  color: #0B132A;
+  font-family: Rubik;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.iconos-grid {
+  width: 100%;
+  padding: 15px;
+}
+
+.parrafo-abajo-icono {
+  margin-top: -0.7rem;
+  width: 200px;
+  color: #4F5665;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.contenedor-textos {
+  position: relative;
+  left: 1rem;
+}
+
+.columnas-iconos {
+  margin-top: 1.5rem;
+}
+
+.contenedor-circular {
+  width: 3.438rem;
+  height: 3.438rem;
+  background-color: #ECF4FF;
+}
+
+.row i {
+  font-size: 1.2rem;
+  color: #044C7E;
+}
+
+.imgMain {
+  width: 27.5rem;
+}
+
+.botonTarjetas {
+  margin-top: 60px;
+  background-color: #044C7E;
+  color: white;
+  width: 100%;
+  fill: #FFF;
+  box-shadow: 0px 20px 27px rgba(4, 76, 126, 0.35);
+}
+
+.imagenestarjetas {
+  width: 153px;
+  height: 102px;
+  border-radius: 0px 32px 0px 0px;
+}
+
+.tarjeta-titulo {
+  margin-top: 10px;
+  color: #0B132A;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.tarjeta-descripcion {
+  height: 170px;
+  color: #0B132A;
+  font-family: Rubik;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.column {
+  fill: #FFF;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  filter: drop-shadow(0px 50px 115px rgba(4, 76, 126, 0.23));
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.main-form-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contenedor-flexible {
+  padding: 30px;
+  width: 35rem;
+  height: 25rem;
+  border-radius: 10px;
+  box-shadow: 0px 20px 47px rgba(4, 76, 126, 0.35);
+}
+.contenedor-flexible form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.contenedor-flexible form label {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.contenedor-flexible form select {
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 0.3rem;
+  width: auto;
+  height: 3rem;
+  color: gray;
+  font-size: 20px;
+}
+.contenedor-flexible form input {
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 0.3rem;
+  width: auto;
+  height: 3rem;
+  margin-bottom: 10px;
+}
+.contenedor-flexible form .boton-saldo {
+  border: 0px;
+  transition: all 1s;
+  width: auto;
+  margin-top: 2px;
+  height: 55px;
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  background-color: #044C7E;
+  box-shadow: 0px 20px 27px rgba(4, 76, 126, 0.35);
+}
+.contenedor-flexible form .boton-saldo:hover {
+  color: rgb(67, 67, 67);
+  background-color: white;
+  border: 0px solid;
+}
+
+.contenedor-imagen img {
+  width: 18rem;
+  margin-top: -120px;
+}
+
+.versaldo {
+  margin-left: 11%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+* {
+  font-family: Rubik;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .imagenmain {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contenedor-imagen img {
+    display: none;
+  }
+}
+@media screen and (max-width: 455px) {
+  .texto-descripcion {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .beneficiosimg img {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .grilla {
+    margin-top: 1rem;
+    margin-left: 0rem;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 50vh 50vh;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-areas: "logo texto" "logo2 texto2";
+  }
+  .grilla .beneficios-icon {
+    grid-area: logo;
+  }
+  .grilla .texto {
+    grid-area: texto;
+  }
+  .grilla .beneficios-icon-2 {
+    grid-area: logo2;
+  }
+  .grilla .texto2 {
+    grid-area: texto2;
+  }
+}
+footer {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 50px;
+  width: 100%;
+  height: 9.372rem;
+  background-color: #044C7E;
+}
+footer img {
+  width: 6rem;
+}
+footer h2 {
+  color: white;
+}
+
+.grilla {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  column-gap: 1rem;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr 2fr 3fr;
+  grid-template-rows: 0.2fr;
+}
+
+.imagen img {
+  margin-top: -80px;
+  width: 19rem;
+}
+
+.contenedor-circular .abcletras {
+  font-size: 2rem;
+}
+
+.main-grid-boot {
+  width: 100;
+  height: 90vh;
+}
+
+.card-tarifas {
+  margin-left: 30px;
+}
+
+.botontarjetatarifa {
+  margin-top: 117px;
+}
+
+.contenedortarifas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

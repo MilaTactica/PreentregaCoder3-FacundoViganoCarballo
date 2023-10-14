@@ -1,0 +1,15 @@
+@mixin centrar-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin centrar-start-flex{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+@mixin centrar-no-align-column{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

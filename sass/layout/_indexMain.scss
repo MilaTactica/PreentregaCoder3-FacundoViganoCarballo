@@ -1,0 +1,77 @@
+@import "./variables/variables";
+.texto-descripcion{
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.tituloMain{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 500;
+}
+.boton{
+    width: 250px;
+    height: 60px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: $color-primario;
+    box-shadow:  0px 20px 27px rgba(4, 76, 126, 0.35);
+}
+.boton{
+    p{
+        position: relative;
+        top: 20%;
+    }
+}
+.main-grid{
+    width: 100%;
+    padding: 15px;
+}
+.texto-icono-der{
+    color: #0B132A;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+.iconos-grid{
+    width: 100%;
+    padding: 15px;
+}
+.parrafo-abajo-icono{
+    margin-top: -0.700rem;
+    width: 200px;
+    color: #4F5665;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.contenedor-textos{
+    position: relative;
+    left: 1rem;
+}
+.columnas-iconos{
+    margin-top: 1.5rem;
+}
+.contenedor-circular{
+    width: 3.438rem;
+    height: 3.438rem;
+    background-color: $color-secundario;
+}
+.row{
+    i{
+        font-size: 1.2rem;
+        color: $color-primario;
+    }
+}
+.imgMain{
+    width: 27.5rem;
+}
