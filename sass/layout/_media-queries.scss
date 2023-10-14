@@ -53,3 +53,29 @@
         }
     }
 }
+
+@media screen and (max-width: 1441px) {
+    .column{
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width: 2561px) {
+    .column{
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width: 426px) {
+    .column{
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 378px) {
+    .column{
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 321px) {
+    .column{
+        margin-left: 3%;
+    }
+}
