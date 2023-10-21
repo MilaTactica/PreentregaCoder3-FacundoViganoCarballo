@@ -356,7 +356,7 @@ nav {
 }
 @media screen and (max-width: 1441px) {
   * .secciones {
-    margin-top: 70px;
+    margin-top: 30px;
     height: 600px;
   }
 }
