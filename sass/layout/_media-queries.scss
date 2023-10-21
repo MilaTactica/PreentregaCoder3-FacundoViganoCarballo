@@ -85,3 +85,23 @@
         font-size: 40px;
     }
 }
+@media screen and (max-width: 1921px) {
+    *{
+        .secciones-beneficios{
+            margin-top: 20px;
+            height: 569px;
+        }
+        .secciones{
+            margin-top: 150px;
+            height: 800px;
+        }
+    }
+}
+@media screen and (max-width: 1441px) {
+    *{
+        .secciones{
+            margin-top: 70px;
+            height: 600px;
+        }
+    }
+}
