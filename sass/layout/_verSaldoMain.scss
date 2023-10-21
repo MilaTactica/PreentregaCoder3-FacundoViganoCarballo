@@ -1,9 +1,11 @@
 @import "./variables/variables";
 .main-form-flex{
+    margin: 2px;
     display: flex;
     justify-content: space-evenly;
 }
 .contenedor-flexible{
+    min-width: 300px;
     form{
         label{
             margin-bottom: 10px;

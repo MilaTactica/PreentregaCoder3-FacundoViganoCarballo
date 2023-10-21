@@ -137,7 +137,7 @@ nav {
 }
 
 .imgMain {
-  width: 27.5rem;
+  width: 25.5rem;
 }
 
 .botonTarjetas {
@@ -189,11 +189,13 @@ nav {
 }
 
 .main-form-flex {
+  margin: 2px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .contenedor-flexible {
+  min-width: 300px;
   padding: 30px;
   width: 35rem;
   height: 25rem;
@@ -336,14 +338,20 @@ nav {
     margin-left: 3%;
   }
 }
+@media screen and (max-width: 321px) {
+  .tituloMain {
+    margin: 0px;
+    font-size: 40px;
+  }
+}
 footer {
   display: flex;
   justify-content: start;
   align-items: center;
   flex-direction: row;
   margin-top: 50px;
-  width: 100%;
-  height: 9.372rem;
+  max-width: 100%;
+  height: 200px;
   background-color: #044C7E;
 }
 footer img {
@@ -377,7 +385,7 @@ footer h2 {
 }
 
 .card-tarifas {
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .botontarjetatarifa {
