@@ -4,6 +4,13 @@
     }
 }
 @media screen and (max-width: 1000px) {
+    .secciones-beneficios{
+        height: 100%;
+        margin-bottom: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     .imagenmain{
         display: none;
     }
@@ -16,18 +23,48 @@
     }
 }
 @media screen and (max-width: 455px) {
+    .secciones-beneficios{
+        height: 100%;
+        margin-bottom: 1000px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     .texto-descripcion{
         display: none;
     }
 }
 @media screen and (max-width: 800px) {
+    .secciones-beneficios{
+        height: 100%;
+        margin-bottom: 500px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     .beneficiosimg{
         img{
             display: none;
         }
     }
 }
+@media screen and (max-width: 666px) {
+    .secciones-beneficios{
+        height: 100%;
+        margin-bottom: 700px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
 @media screen and (max-width: 450px) {
+    .secciones-beneficios{
+        height: 100%;
+        margin-bottom: 1400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     .grilla{
         margin-top: 1rem;
         margin-left: 0rem;
@@ -64,25 +101,46 @@
         margin-left: 2%;
     }
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 425px) {
+    .tituloMain{
+        margin-bottom: 20px;
+    }
+    .secciones-beneficios{
+        height: 100%;
+        margin-bottom: 1400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }   
     .column{
         margin-left: 15%;
     }
 }
-@media screen and (max-width: 378px) {
+@media screen and (max-width: 375px) {
+    .secciones-beneficios{
+        height: 100%;
+        margin-bottom: 1400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     .column{
         margin-left: 10%;
     }
 }
 @media screen and (max-width: 321px) {
+    .tituloMain{
+        font-size: 2rem;
+    }
     .column{
         margin-left: 3%;
     }
 }
 @media screen and (max-width: 321px) {
-    .tituloMain{
-        margin: 0px;
-        font-size: 40px;
+    .secciones-beneficios{
+        height: 100%;
+        margin-bottom: 1400px;
+        width: 100%;
     }
 }
 @media screen and (max-width: 1921px) {
