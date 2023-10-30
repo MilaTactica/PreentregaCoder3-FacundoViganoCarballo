@@ -286,6 +286,16 @@ nav {
     display: none;
   }
 }
+@media screen and (min-width: 768px) {
+  .contenedor-circular {
+    background-color: white;
+  }
+}
+@media screen and (min-width: 991px) {
+  .contenedor-circular {
+    background-color: #ECF4FF;
+  }
+}
 @media screen and (max-width: 455px) {
   .secciones-beneficios {
     height: 100%;
@@ -296,6 +306,11 @@ nav {
   }
   .texto-descripcion {
     display: none;
+  }
+}
+@media screen and (min-width: 455px) {
+  .mainindex {
+    margin-bottom: 200px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -383,9 +398,6 @@ nav {
     display: flex;
     justify-content: center;
   }
-  .column {
-    margin-left: 10%;
-  }
 }
 @media screen and (max-width: 321px) {
   .tituloMain {
@@ -416,6 +428,35 @@ nav {
   * .secciones {
     margin-top: 30px;
     height: 600px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .mainindex {
+    margin-bottom: 0px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .secciones-beneficios {
+    height: 100vh;
+  }
+  .tarjetas {
+    height: 100vh;
+  }
+  .versaldoseccion {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .secciones-beneficios {
+    height: 100vh;
+  }
+  .mainindex {
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 1921px) {
+  .mainindex {
+    height: 100vh;
   }
 }
 footer {
@@ -450,6 +491,11 @@ footer h2 {
 }
 
 .contenedor-circular .abcletras {
+  font-size: 2rem;
+}
+
+.tituloMainBeneficios {
+  margin-left: 5%;
   font-size: 2rem;
 }
 
